@@ -1,13 +1,13 @@
-- 👋 Hi, I’m @DeveloperMindset123
-- 👀 I’m interested in Data Science, Machine Learning, Backend Development
-- 🌱 I’m currently learning Computer Science at City College of New York
-- 💞️ I’m looking to collaborate on projects
-- 📫 How to reach me (contact information below)
+![Ayan's GitHub stats](https://github-readme-stats.vercel.app/api?username=DeveloperMindset123&show_icons=true&show_owner=true&include_all_commits=true&rank_icon=github&theme=tokyonight&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
+<!--Showcase top projects -->
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=DeveloperMindset123&repo=PersonalPortfolio&theme=tokyonight)](https://github.com/DeveloperMindset123/PersonalPortfolio)
 
-Primary email: Adas006@citymail.cuny.edu  
-Secondary Email: Dasa60196@gmail.com
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=DeveloperMindset123&langs_count=6&layout=donut&theme=dracula)](https://github.com/anuraghazra/github-readme-stats)
 
-<!---
+
+
+<!--[![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=DeveloperMindset123)](https://github.com/anuraghazra/github-readme-stats) note: update this once some coding activity has been recorded using this app-->
+<!---display all time contributions
 DeveloperMindset123/DeveloperMindset123 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
