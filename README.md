@@ -6,7 +6,8 @@
 
 
 ### About me: 
-Coding.
+const acitivity = "Coding" || "Sleeping" || "Eating" || "Wasting Time"
+
 <!--[![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=DeveloperMindset123)](https://github.com/anuraghazra/github-readme-stats) note: update this once some coding activity has been recorded using this app-->
 <!---display all time contributions
 DeveloperMindset123/DeveloperMindset123 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
