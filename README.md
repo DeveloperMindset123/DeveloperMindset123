@@ -1,6 +1,6 @@
-![Ayan's GitHub stats](https://github-readme-stats.vercel.app/api?username=DeveloperMindset123&show_icons=true&show_owner=true&include_all_commits=true&rank_icon=github&theme=tokyonight&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
+<!--![Ayan's GitHub stats](https://github-readme-stats.vercel.app/api?username=DeveloperMindset123&show_icons=true&show_owner=true&include_all_commits=true&rank_icon=github&theme=tokyonight&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage) -->
 <!--Showcase top projects -->
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=DeveloperMindset123&repo=PersonalPortfolio&theme=tokyonight)](https://github.com/DeveloperMindset123/PersonalPortfolio)
+<!--[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=DeveloperMindset123&repo=PersonalPortfolio&theme=tokyonight)](https://github.com/DeveloperMindset123/PersonalPortfolio) -->
 
 <!--[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=DeveloperMindset123&langs_count=6&layout=donut&theme=dracula)](https://github.com/anuraghazra/github-readme-stats) -->
 
