@@ -2,7 +2,7 @@
 <!--Showcase top projects -->
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=DeveloperMindset123&repo=PersonalPortfolio&theme=tokyonight)](https://github.com/DeveloperMindset123/PersonalPortfolio)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=DeveloperMindset123&langs_count=6&layout=donut&theme=dracula)](https://github.com/anuraghazra/github-readme-stats)
+<!--[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=DeveloperMindset123&langs_count=6&layout=donut&theme=dracula)](https://github.com/anuraghazra/github-readme-stats) -->
 
 
 ### About me: 
