@@ -6,7 +6,7 @@
 
 
 ### About me: 
-```const currentAcitivity = "Coding" || "Sleeping" || "Eating" || "???"```
+```const currentAcitivity = "Coding Projects" || "Solving Leetcode" || "Learning Math"```
 
 <!--[![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=DeveloperMindset123)](https://github.com/anuraghazra/github-readme-stats) note: update this once some coding activity has been recorded using this app-->
 <!---display all time contributions
