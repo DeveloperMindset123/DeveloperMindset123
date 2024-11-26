@@ -17,6 +17,6 @@ You can click the Preview link to take a look at your changes.
 --->
 
 ```python
-languages = { 'Day' : 'C++', 'night' : 'Rust' }
+languages = { 'day' : 'C++', 'night' : 'Rust' }
 interests = ['Distributed Systems', 'Game Development', 'Systems Programming/Design']
 ```
