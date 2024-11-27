@@ -17,6 +17,6 @@ You can click the Preview link to take a look at your changes.
 --->
 
 ```python
-languages = { 'dsa' : 'python', 'projects' : ['Rust', 'C++', 'TypeScript'] }
+languages = { 'dsa' : 'python', 'projects' : ['Rust', 'TypeScript'] }
 interests = ['Distributed Systems', 'Game Development', 'Systems Programming/Design']
 ```
