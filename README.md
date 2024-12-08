@@ -6,8 +6,8 @@
 
 
 ### About me: 
-```typescript
-const currentAcitivity = "Coding Projects" || "Solving Leetcode" || "Learning Math" || "Converging Towards Insanity"
+```rust
+const current_acitivty : String = "Applying leetcode concepts to projects".to_owned();
 ```
 
 <!--[![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=DeveloperMindset123)](https://github.com/anuraghazra/github-readme-stats) note: update this once some coding activity has been recorded using this app-->
@@ -17,6 +17,9 @@ You can click the Preview link to take a look at your changes.
 --->
 
 ```python
-languages = { 'dsa' : 'python', 'projects' : ['Rust', 'TypeScript'] }
-interests = ['Distributed Systems', 'Game Development', 'Systems Programming/Design']
+from typing import List, Dict
+
+# Language use cases
+languages : Dict[str, List[str]] = { 'dsa' : ['python','rust'], 'projects' : ['rust', 'typescript'] }
+interests : str = ['Backend Developement', 'Distributed Systems', 'Game/Graphic Engines', 'Compilers/OS']
 ```
