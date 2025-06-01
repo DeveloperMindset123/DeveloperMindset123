@@ -20,6 +20,6 @@ You can click the Preview link to take a look at your changes.
 from typing import List, Dict
 
 # Language use cases
-languages : Dict[str, List[str]] = { 'dsa' : ['python','rust'], 'projects' : ['rust', 'typescript'] }
-interests : str = ['Backend Developement', 'Distributed Systems', 'Game/Graphic Engines', 'Compilers/OS']
+languages : Dict[str, List[str]] = { 'dsa' : ['python','rust'], 'projects' : ['python', 'rust', 'typescript'] }
+interests : str = ['Agentic Development', 'Software Development Kit', 'Automations', 'Frontend Dev', 'Backend Dev', 'Game Engines', 'Robotics']
 ```
