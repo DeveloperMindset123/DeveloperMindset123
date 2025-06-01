@@ -21,5 +21,11 @@ from typing import List, Dict
 
 # Language use cases
 languages : Dict[str, List[str]] = { 'dsa' : ['python','rust'], 'projects' : ['python', 'rust', 'typescript'] }
-interests : str = ['Agentic Development', 'Software Development Kit', 'Automations', 'Frontend Dev', 'Backend Dev', 'Game Engines', 'Robotics']
+interests : str = ['Agentic Development',
+                  'Software Development Kit',
+                  'Automations',
+                  'Frontend Dev',
+                  'Backend Dev',
+                  'Game Engines',
+                  'Robotics']
 ```
