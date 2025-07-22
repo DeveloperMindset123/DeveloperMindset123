@@ -7,7 +7,7 @@
 
 ### About me: 
 ```rust
-const current_acitivty : String = "Applying leetcode concepts to projects".to_owned();
+const current_acitivty : String = "contributing to open-source and using it to build awesome stuff".to_owned();
 ```
 
 <!--[![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=DeveloperMindset123)](https://github.com/anuraghazra/github-readme-stats) note: update this once some coding activity has been recorded using this app-->
@@ -16,16 +16,18 @@ DeveloperMindset123/DeveloperMindset123 is a ✨ special ✨ repository because 
 You can click the Preview link to take a look at your changes.
 --->
 
-```python
-from typing import List, Dict
+```rust
 
-# Language use cases
-languages : Dict[str, List[str]] = { 'dsa' : ['python','rust'], 'projects' : ['python', 'rust', 'typescript'] }
-interests : str = ['Agentic Development',
-                  'Software Development Kit',
-                  'Automations',
-                  'Frontend Dev',
-                  'Backend Dev',
-                  'Game Engines',
-                  'Robotics']
+const LANGUAGES : Vec<String> = vec!["rust".to_string(), "python".to_string(), "typescript".to_string()];
+
+// these interests has a lot of overlap with one another and can be used interchageably
+const interests : Vec<String> = vec![
+                  'Automations'.to_string(),
+                  'Game Engines'.to_string(),
+                  'Game Development'.to_string(),
+                  'Robotics'.to_string()
+];
+
+// as of right now
+const years_of_experience : u32 = 2;    
 ```
