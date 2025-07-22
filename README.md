@@ -22,10 +22,10 @@ const LANGUAGES : Vec<String> = vec!["rust".to_string(), "python".to_string(), "
 
 // these interests has a lot of overlap with one another and can be used interchageably
 const interests : Vec<String> = vec![
-                  'Automations'.to_string(),
-                  'Game Engines'.to_string(),
-                  'Game Development'.to_string(),
-                  'Robotics'.to_string()
+                  "Automations".to_string(),
+                  "Game Engines".to_string(),
+                  "Game Development".to_string(),
+                  "Robotics".to_string()
 ];
 
 // as of right now
