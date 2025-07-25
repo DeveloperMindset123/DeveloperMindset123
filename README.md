@@ -18,7 +18,7 @@ You can click the Preview link to take a look at your changes.
 
 ```rust
 
-const LANGUAGES : Vec<String> = vec!["rust".to_string(), "python".to_string(), "typescript".to_string()];
+const LANGUAGES : Vec<String> = vec!["rust".to_string(), "C++".to_string(), "python".to_string(), "typescript".to_string()];
 
 // these interests has a lot of overlap with one another and can be used interchageably
 const interests : Vec<String> = vec![
