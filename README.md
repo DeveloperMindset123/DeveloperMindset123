@@ -38,8 +38,10 @@ const interests : Vec<String> = vec![
                   "Reinforcement Learning".to_string(),
 
                   // Part of end to end development, software and hardware integration, for fast moving land, air and water autonomous vehicles
-                  "Robotics".to_string(),                  
-                  "Techical Architect".to_string(),        // Long-term career Goal, gain a wide range of understanding of all types of technology, and remain a technical leader.
+                  "Robotics".to_string(),
+
+                  // Long-term career Goal, gain a wide range of understanding of all types of technology, and grow in the field of IC based leadership roles.
+                  "Techical Architect".to_string(),        
 ];
 
 // as of right now
