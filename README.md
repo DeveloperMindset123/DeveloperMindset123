@@ -7,7 +7,12 @@
 
 ### About me: 
 ```rust
-const current_acitivty : String = "contributing to open-source and using it to build awesome stuff".to_owned();
+
+// Yes, I also plan on doing a phD as well following my masters
+const current_acitivty : String = r#"
+- Personal Foundational Projects in Perception & Tracking, integration with hardware (Physical AI domain)
+- External Research work with IBM for Predictive Maintenace & Prognostic Health and Management for Industrial Assets
+- Online Asynchronous Master's Degree in Georgia Tech focused on Perception and Robotics"#;
 ```
 
 <!--[![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=DeveloperMindset123)](https://github.com/anuraghazra/github-readme-stats) note: update this once some coding activity has been recorded using this app-->
@@ -20,14 +25,24 @@ You can click the Preview link to take a look at your changes.
 
 const LANGUAGES : Vec<String> = vec!["rust".to_string(), "C++".to_string(), "python".to_string(), "typescript".to_string()];
 
-// these interests has a lot of overlap with one another and can be used interchageably
+const about_me : Vec<String> = String::new("I got interested in computer vision,
+especially perception and tracking, since I am interested in defense tech industry,
+so my skills/interests are catered toward this domain.
+My long-term goal is to work in the frontier of defense tech for USA");
+
 const interests : Vec<String> = vec![
-                  "Automations".to_string(),
-                  "Game Engines".to_string(),
-                  "Game Development".to_string(),
-                  "Robotics".to_string()
+                  // This is the current focus, weekend portfolio maker 
+                  "Perception & Tracking".to_string(),
+
+                  // future focus, after I solidify foundations in perception & tracking
+                  "Reinforcement Learning".to_string(),
+
+                  // Part of end to end development, software and hardware integration, for fast moving land, air and water autonomous vehicles
+                  "Robotics".to_string(),                  
+                  "Techical Architect".to_string(),        // Long-term career Goal, gain a wide range of understanding of all types of technology, and remain a technical leader.
 ];
 
 // as of right now
-const years_of_experience : u32 = 2;    
+// Always Building...
+const years_of_experience : u32 = 2.5;          
 ```
