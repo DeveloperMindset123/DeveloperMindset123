@@ -11,7 +11,7 @@
 // Yes, I also plan on doing a phD as well following my masters
 const current_acitivty : String = r#"
 - Personal Foundational Projects in Perception & Tracking, integration with hardware (Physical AI domain)
-- External Research work with IBM for Predictive Maintenace & Prognostic Health and Management for Industrial Assets
+- External Research work with IBM for Predictive Maintenance & Prognostic Health and Management for Industrial Assets
 - Online Asynchronous Master's Degree in Georgia Tech focused on Perception and Robotics"#;
 ```
 
