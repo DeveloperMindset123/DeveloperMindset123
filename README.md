@@ -3,8 +3,11 @@
   <img src="./assets/sakura-header.svg" alt="Cherry blossom aviation header" width="100%" />
 </p>
 
+<!-- 🧑‍✈️ Avatar (left) + ⚡ Smart grid (right) -->
 <p align="center">
-  <img src="./assets/asset.png" alt="Ayan Das" width="200" />
+  <img src="./assets/asset.png" alt="Ayan Das" height="300" />
+  &nbsp;&nbsp;
+  <img src="./assets/smart-grid.svg" alt="Animated smart grid mesh network" height="300" />
 </p>
 
 <p align="center">
@@ -14,7 +17,7 @@
 </p>
 
 <p align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=DeveloperMindset123.DeveloperMindset123&left_text=Passengers%20Boarded&left_color=%23334155&right_color=%23ff8fab" alt
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=DeveloperMindset123.DeveloperMindset123&left_text=Passengers%20Boarded&left_color=%23334155&right_color=%23ff8fab" alt="profile views" />
   <img src="https://img.shields.io/github/followers/DeveloperMindset123?label=Crew&style=flat-square&color=7dd3fc" alt="followers" />
   <img src="https://img.shields.io/badge/Georgia%20Tech-OMSCS-B3A369?style=flat-square" alt="Georgia Tech" />
 </p>
