@@ -8,9 +8,8 @@
 ### About me: 
 ```rust
 
-// Yes, I also plan on doing a phD as well following my masters
-const current_acitivty : String = r#"
-- Personal Foundational Projects in Perception & Tracking, integration with hardware (Physical AI domain)
+const current_interests : String = r#"
+- Reinforcement learning and robotics
 - External Research work with IBM for Predictive Maintenance & Prognostic Health and Management for Industrial Assets
 - Online Asynchronous Master's Degree in Georgia Tech focused on Perception and Robotics"#;
 ```
@@ -26,15 +25,13 @@ You can click the Preview link to take a look at your changes.
 const LANGUAGES : Vec<String> = vec!["rust".to_string(), "C++".to_string(), "python".to_string(), "typescript".to_string()];
 
 const about_me : Vec<String> = String::new("I got interested in computer vision,
-especially perception and tracking, since I am interested in defense tech industry,
-so my skills/interests are catered toward this domain.
-My long-term goal is to work in the frontier of defense tech for USA");
+especially perception and tracking of autonomous vehicles/aircrafts");
 
 const interests : Vec<String> = vec![
-                  // This is the current focus, weekend portfolio maker 
+                  // This is the current focus in terms of academics
                   "Perception & Tracking".to_string(),
 
-                  // future focus, after I solidify foundations in perception & tracking
+                  // developing foundational understanding behind the underlying structure of neural networks
                   "Reinforcement Learning".to_string(),
 
                   // Part of end to end development, software and hardware integration, for fast moving land, air and water autonomous vehicles
