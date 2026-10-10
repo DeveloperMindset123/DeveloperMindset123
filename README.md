@@ -1,6 +1,6 @@
 <!-- ===================== 🌸 TAKEOFF ✈️ ===================== -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=240&color=0:ffd6e0,50:ff8fab,100:7dd3fc&text=Ayan%20Das&fontColor=ffffff&fontSize=62&fontAlignY=36&desc=Cleared%20for%20Takeoff%20%E2%80%A2%20Robotics%20%E2%80%A2%20Perception%20%E2%80%A2%20Edge%20AI&descAlignY=58&descSize=18&animation=fadeIn" alt="header" width="100%" />
+  <img src="./assets/sakura-header.svg" alt="Cherry blossom aviation header" width="100%" />
 </p>
 
 <p align="center">
