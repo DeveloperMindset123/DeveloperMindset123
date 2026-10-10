@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=DeveloperMindset123&color=ff8fab&style=flat-square&label=Passengers+Boarded" alt="profile views" />
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=DeveloperMindset123.DeveloperMindset123&left_text=Passengers%20Boarded&left_color=%23334155&right_color=%23ff8fab" alt
   <img src="https://img.shields.io/github/followers/DeveloperMindset123?label=Crew&style=flat-square&color=7dd3fc" alt="followers" />
   <img src="https://img.shields.io/badge/Georgia%20Tech-OMSCS-B3A369?style=flat-square" alt="Georgia Tech" />
 </p>
