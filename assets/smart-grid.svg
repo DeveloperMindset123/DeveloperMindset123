@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300" viewBox="0 0 600 300">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f172a"/><stop offset="1" stop-color="#1e1b3a"/></linearGradient>
+<radialGradient id="glow"><stop offset="0" stop-color="#ff8fab" stop-opacity=".9"/><stop offset="1" stop-color="#ff8fab" stop-opacity="0"/></radialGradient>
+<radialGradient id="glowb"><stop offset="0" stop-color="#7dd3fc" stop-opacity=".9"/><stop offset="1" stop-color="#7dd3fc" stop-opacity="0"/></radialGradient>
+<pattern id="gridp" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#334155" stroke-width=".5" opacity=".5"/></pattern>
+</defs>
+<style>
+@keyframes flow{to{stroke-dashoffset:-40}}
+@keyframes flowr{to{stroke-dashoffset:40}}
+@keyframes pulse{0%,100%{opacity:.35;transform:scale(.8)}50%{opacity:1;transform:scale(1.25)}}
+@keyframes blink{0%,100%{opacity:.25}50%{opacity:1}}
+@keyframes scan{0%{transform:translateY(-10px)}100%{transform:translateY(310px)}}
+@keyframes spin{to{transform:rotate(360deg)}}
+.trunk{stroke:#ff8fab;stroke-width:2.5;fill:none;stroke-dasharray:6 14;animation:flow 1.2s linear infinite}
+.mesh{stroke:#7dd3fc;stroke-width:1.2;fill:none;stroke-dasharray:3 9;opacity:.75;animation:flowr 2s linear infinite}
+.base{stroke:#475569;stroke-width:1;fill:none}
+.halo{transform-box:fill-box;transform-origin:center;animation:pulse 2.4s ease-in-out infinite}
+.win{fill:#fde68a;animation:blink 3s ease-in-out infinite}
+.scan{animation:scan 6s linear infinite}
+.blade{transform-box:fill-box;transform-origin:50% 100%;animation:spin 3s linear infinite}
+.lbl{font:600 9px 'Fira Code',Consolas,monospace;fill:#cbd5e1}
+.ttl{font:700 13px 'Fira Code',Consolas,monospace;fill:#ff8fab;letter-spacing:2px}
+</style>
+<rect width="100%" height="100%" rx="16" fill="url(#bg)"/>
+<rect width="100%" height="100%" rx="16" fill="url(#gridp)"/>
+<path class="base" d="M210,90 L210,210"/><path class="mesh" style="animation-delay:-0.48s" d="M210,90 L210,210"/>
+<path class="base" d="M430,60 L430,150"/><path class="mesh" style="animation-delay:-1.09s" d="M430,60 L430,150"/>
+<path class="base" d="M430,150 L430,240"/><path class="mesh" style="animation-delay:-0.74s" d="M430,150 L430,240"/>
+<path class="base" d="M210,90 L430,60"/><path class="mesh" style="animation-delay:-1.21s" d="M210,90 L430,60"/>
+<path class="base" d="M210,210 L430,240"/><path class="mesh" style="animation-delay:-1.25s" d="M210,210 L430,240"/>
+<path class="base" d="M545,100 L540,165"/><path class="mesh" style="animation-delay:-0.13s" d="M545,100 L540,165"/>
+<path class="base" d="M540,165 L545,220"/><path class="mesh" style="animation-delay:-0.03s" d="M540,165 L545,220"/>
+<path class="base" d="M540,40 L545,100"/><path class="mesh" style="animation-delay:-1.67s" d="M540,40 L545,100"/>
+<path class="base" d="M545,220 L540,270"/><path class="mesh" style="animation-delay:-0.52s" d="M545,220 L540,270"/>
+<path class="base" d="M70,60 L70,150"/><path class="mesh" style="animation-delay:-0.47s" d="M70,60 L70,150"/>
+<path class="base" d="M70,150 L70,245"/><path class="mesh" style="animation-delay:-1.99s" d="M70,150 L70,245"/>
+<path class="base" d="M70,150 L210,90"/><path class="trunk" style="animation-delay:-0.94s" d="M70,150 L210,90"/>
+<path class="base" d="M70,150 L210,210"/><path class="trunk" style="animation-delay:-1.67s" d="M70,150 L210,210"/>
+<path class="base" d="M70,60 L210,90"/><path class="trunk" style="animation-delay:-0.95s" d="M70,60 L210,90"/>
+<path class="base" d="M70,245 L210,210"/><path class="trunk" style="animation-delay:-1.28s" d="M70,245 L210,210"/>
+<path class="base" d="M210,90 L320,150"/><path class="trunk" style="animation-delay:-0.30s" d="M210,90 L320,150"/>
+<path class="base" d="M210,210 L320,150"/><path class="trunk" style="animation-delay:-1.27s" d="M210,210 L320,150"/>
+<path class="base" d="M320,150 L430,60"/><path class="trunk" style="animation-delay:-1.74s" d="M320,150 L430,60"/>
+<path class="base" d="M320,150 L430,150"/><path class="trunk" style="animation-delay:-1.05s" d="M320,150 L430,150"/>
+<path class="base" d="M320,150 L430,240"/><path class="trunk" style="animation-delay:-1.48s" d="M320,150 L430,240"/>
+<path class="base" d="M430,60 L540,40"/><path class="trunk" style="animation-delay:-1.34s" d="M430,60 L540,40"/>
+<path class="base" d="M430,60 L545,100"/><path class="trunk" style="animation-delay:-0.13s" d="M430,60 L545,100"/>
+<path class="base" d="M430,150 L540,165"/><path class="trunk" style="animation-delay:-1.52s" d="M430,150 L540,165"/>
+<path class="base" d="M430,240 L545,220"/><path class="trunk" style="animation-delay:-1.18s" d="M430,240 L545,220"/>
+<path class="base" d="M430,240 L540,270"/><path class="trunk" style="animation-delay:-0.60s" d="M430,240 L540,270"/>
+<circle r="2.6" fill="#fff"><animateMotion dur="1.6s" repeatCount="indefinite" begin="-1.4s" path="M70,150 L210,90"/></circle>
+<circle r="2.6" fill="#fff"><animateMotion dur="2.3s" repeatCount="indefinite" begin="-1.6s" path="M70,150 L210,210"/></circle>
+<circle r="2.6" fill="#fff"><animateMotion dur="2.8s" repeatCount="indefinite" begin="-2.0s" path="M70,60 L210,90"/></circle>
+<circle r="2.6" fill="#fff"><animateMotion dur="2.9s" repeatCount="indefinite" begin="-1.1s" path="M70,245 L210,210"/></circle>
+<circle r="2.6" fill="#fff"><animateMotion dur="2.7s" repeatCount="indefinite" begin="-1.2s" path="M210,90 L320,150"/></circle>
+<circle r="2.6" fill="#fff"><animateMotion dur="2.9s" repeatCount="indefinite" begin="-2.6s" path="M210,210 L320,150"/></circle>
+<circle r="2.6" fill="#fff"><animateMotion dur="1.7s" repeatCount="indefinite" begin="-0.2s" path="M320,150 L430,60"/></circle>
+<circle r="2.6" fill="#fff"><animateMotion dur="1.9s" repeatCount="indefinite" begin="-1.8s" path="M320,150 L430,150"/></circle>
+<circle r="2.6" fill="#fff"><animateMotion dur="2.2s" repeatCount="indefinite" begin="-1.4s" path="M320,150 L430,240"/></circle>
+<circle r="2.6" fill="#fff"><animateMotion dur="2.0s" repeatCount="indefinite" begin="-1.0s" path="M430,60 L540,40"/></circle>
+<circle r="2.6" fill="#fff"><animateMotion dur="2.1s" repeatCount="indefinite" begin="-0.8s" path="M430,60 L545,100"/></circle>
+<circle r="2.6" fill="#fff"><animateMotion dur="2.4s" repeatCount="indefinite" begin="-1.4s" path="M430,150 L540,165"/></circle>
+<circle r="2.6" fill="#fff"><animateMotion dur="2.9s" repeatCount="indefinite" begin="-2.0s" path="M430,240 L545,220"/></circle>
+<circle r="2.6" fill="#fff"><animateMotion dur="2.9s" repeatCount="indefinite" begin="-2.5s" path="M430,240 L540,270"/></circle>
+<circle class="halo" style="animation-delay:-2.0s" cx="70" cy="150" r="20" fill="url(#glow)"/><g transform="translate(56,136)"><rect x="0" y="10" width="28" height="18" rx="2" fill="#1e293b" stroke="#ff8fab"/><rect x="4" y="0" width="5" height="12" fill="#64748b"/><rect x="13" y="3" width="5" height="9" fill="#64748b"/><path d="M14 14 l-4 7 h4 l-2 6 l7-9 h-4 l2-4z" fill="#fde68a"/></g><text class="lbl" x="70" y="176" text-anchor="middle">PLANT</text>
+<circle class="halo" style="animation-delay:-1.3s" cx="70" cy="60" r="20" fill="url(#glowb)"/><g transform="translate(70,60)"><path d="M0,0 L-2,18 L2,18 Z" fill="#cbd5e1"/><g class="blade"><path d="M0,0 L0,-15 L2,-2 Z M0,0 L13,8 L1,2 Z M0,0 L-13,8 L-1,2 Z" fill="#e2e8f0" transform="translate(0,0)"/></g><circle r="2" fill="#7dd3fc"/></g><text class="lbl" x="70" y="86" text-anchor="middle">WIND</text>
+<circle class="halo" style="animation-delay:-0.3s" cx="70" cy="245" r="20" fill="url(#glowb)"/><g transform="translate(56,235)"><path d="M0,14 L6,0 L28,0 L22,14 Z" fill="#1d4ed8" stroke="#7dd3fc"/><path d="M11,0 L5,14 M17,0 L11,14 M3,7 L25,7" stroke="#7dd3fc" stroke-width=".8"/><rect x="12" y="14" width="3" height="6" fill="#64748b"/></g><text class="lbl" x="70" y="271" text-anchor="middle">SOLAR</text>
+<circle class="halo" style="animation-delay:-1.7s" cx="210" cy="90" r="20" fill="url(#glow)"/><g transform="translate(197,77)"><rect width="26" height="26" rx="4" fill="#1e293b" stroke="#ff8fab" stroke-width="1.5"/><path d="M7 19 V9 M13 19 V7 M19 19 V9 M5 11 H21" stroke="#fbcfe8" stroke-width="1.5"/></g><text class="lbl" x="210" y="116" text-anchor="middle">SUB-A</text>
+<circle class="halo" style="animation-delay:-1.9s" cx="210" cy="210" r="20" fill="url(#glow)"/><g transform="translate(197,197)"><rect width="26" height="26" rx="4" fill="#1e293b" stroke="#ff8fab" stroke-width="1.5"/><path d="M7 19 V9 M13 19 V7 M19 19 V9 M5 11 H21" stroke="#fbcfe8" stroke-width="1.5"/></g><text class="lbl" x="210" y="236" text-anchor="middle">SUB-B</text>
+<circle class="halo" style="animation-delay:-1.8s" cx="320" cy="150" r="20" fill="url(#glow)"/><g transform="translate(300,132)"><rect width="40" height="36" rx="6" fill="#1e293b" stroke="#ff8fab" stroke-width="2"/><rect x="5" y="5" width="30" height="18" rx="2" fill="#0b1220"/><path d="M7 18 L13 12 L18 16 L24 9 L33 14" stroke="#7dd3fc" fill="none" stroke-width="1.5"/><circle class="win" cx="10" cy="29" r="2" fill="#4ade80"/><circle class="win" style="animation-delay:-1s" cx="17" cy="29" r="2"/><circle class="win" style="animation-delay:-2s" cx="24" cy="29" r="2" fill="#ff8fab"/></g><text class="lbl" x="320" y="182" text-anchor="middle">CTRL</text>
+<circle class="halo" style="animation-delay:-1.1s" cx="430" cy="60" r="20" fill="url(#glowb)"/><g transform="translate(421,49)"><rect width="18" height="22" rx="3" fill="#1e293b" stroke="#7dd3fc"/><path d="M4 7 h10 M4 11 h10 M4 15 h10" stroke="#7dd3fc"/></g><text class="lbl" x="430" y="86" text-anchor="middle">XFMR-1</text>
+<circle class="halo" style="animation-delay:-1.4s" cx="430" cy="150" r="20" fill="url(#glowb)"/><g transform="translate(421,139)"><rect width="18" height="22" rx="3" fill="#1e293b" stroke="#7dd3fc"/><path d="M4 7 h10 M4 11 h10 M4 15 h10" stroke="#7dd3fc"/></g><text class="lbl" x="430" y="176" text-anchor="middle">XFMR-2</text>
+<circle class="halo" style="animation-delay:-0.4s" cx="430" cy="240" r="20" fill="url(#glowb)"/><g transform="translate(421,229)"><rect width="18" height="22" rx="3" fill="#1e293b" stroke="#7dd3fc"/><path d="M4 7 h10 M4 11 h10 M4 15 h10" stroke="#7dd3fc"/></g><text class="lbl" x="430" y="266" text-anchor="middle">XFMR-3</text>
+<circle class="halo" style="animation-delay:-1.7s" cx="540" cy="40" r="20" fill="url(#glowb)"/><g transform="translate(529,29)"><path d="M0 10 L11 0 L22 10 V22 H0 Z" fill="#1e293b" stroke="#fbcfe8"/><rect class="win" style="animation-delay:-1.7s" x="8" y="12" width="6" height="6"/></g>
+<circle class="halo" style="animation-delay:-0.6s" cx="545" cy="100" r="20" fill="url(#glowb)"/><g transform="translate(535,85)"><rect width="20" height="30" fill="#1e293b" stroke="#fbcfe8"/><rect class="win" style="animation-delay:-0.2s" x="3" y="4" width="5" height="5"/><rect class="win" style="animation-delay:-2.6s" x="12" y="4" width="5" height="5"/><rect class="win" style="animation-delay:-3.0s" x="3" y="13" width="5" height="5"/><rect class="win" style="animation-delay:-0.3s" x="12" y="13" width="5" height="5"/><rect class="win" style="animation-delay:-2.4s" x="3" y="22" width="5" height="5"/><rect class="win" style="animation-delay:-1.2s" x="12" y="22" width="5" height="5"/></g>
+<circle class="halo" style="animation-delay:-0.3s" cx="540" cy="165" r="20" fill="url(#glowb)"/><g transform="translate(529,154)"><path d="M0 10 L11 0 L22 10 V22 H0 Z" fill="#1e293b" stroke="#fbcfe8"/><rect class="win" style="animation-delay:-0.9s" x="8" y="12" width="6" height="6"/></g>
+<circle class="halo" style="animation-delay:-1.5s" cx="545" cy="220" r="20" fill="url(#glowb)"/><g transform="translate(535,205)"><rect width="20" height="30" fill="#1e293b" stroke="#fbcfe8"/><rect class="win" style="animation-delay:-2.6s" x="3" y="4" width="5" height="5"/><rect class="win" style="animation-delay:-0.1s" x="12" y="4" width="5" height="5"/><rect class="win" style="animation-delay:-1.8s" x="3" y="13" width="5" height="5"/><rect class="win" style="animation-delay:-0.1s" x="12" y="13" width="5" height="5"/><rect class="win" style="animation-delay:-2.2s" x="3" y="22" width="5" height="5"/><rect class="win" style="animation-delay:-1.0s" x="12" y="22" width="5" height="5"/></g>
+<circle class="halo" style="animation-delay:-1.8s" cx="540" cy="270" r="20" fill="url(#glowb)"/><g transform="translate(529,259)"><path d="M0 10 L11 0 L22 10 V22 H0 Z" fill="#1e293b" stroke="#fbcfe8"/><rect class="win" style="animation-delay:-2.9s" x="8" y="12" width="6" height="6"/></g>
+<rect class="scan" x="0" y="0" width="600" height="2" fill="#7dd3fc" opacity=".15"/>
+<text class="ttl" x="300" y="22" text-anchor="middle">⚡ SMART GRID · MESH NETWORK ⚡</text>
+<text class="lbl" x="300" y="290" text-anchor="middle" opacity=".7">generation → transmission → distribution → customers</text>
+</svg>
