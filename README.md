@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-  <img src="./assets/avatar.png" alt="Ayan Das" width="200" style="border-radius:50%" />
+  <img src="./assets/asset.png" alt="Ayan Das" width="200" style="border-radius:50%" />
 </p>
 
 <p align="center">
